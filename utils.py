@@ -1,3 +1,4 @@
+# image tensor
 from PIL import Image
 import torch
 import torchvision.transforms.functional as TF
