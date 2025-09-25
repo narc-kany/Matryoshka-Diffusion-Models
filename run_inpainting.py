@@ -15,9 +15,6 @@ from tqdm import tqdm
 
 from utils import load_image_as_tensor, save_tensor_as_image, load_mask_as_tensor
 
-# ---- Replace / implement these to call the real MDM sampling API ----
-# The functions are placeholders so the script is runnable structure-wise.
-# If you use Apple ml-mdm, implement these to call their sample/inpaint methods.
 def load_mdm_model(ckpt_path, device):
     """
     Load a Matryoshka Diffusion Model (or compatible diffusion model).
